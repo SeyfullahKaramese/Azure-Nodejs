@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/api/test", (req, res) => {
-    res.json({ message: "API request successful..." });
+    res.json({ message: "API request successful..." ,version:"v1.1"});
 
 })
 
